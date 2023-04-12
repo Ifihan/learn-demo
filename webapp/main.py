@@ -52,3 +52,5 @@ Generate a hash value of a string. Example POST request body:
 
     string= base64.b64encode(body.text.encode('utf-8'))
     return {'hash': string}
+
+print("Ifihan!")
